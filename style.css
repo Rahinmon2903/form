@@ -1,0 +1,59 @@
+
+.box1{
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+.full{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+header {
+    display: flex;                 /* Use Flexbox for alignment */
+    justify-content: space-between; /* Space between the title and nav */
+    align-items: center;           /* Vertically center items */
+    padding: 10px 20px;            /* Add some spacing */
+    background-color: #f0f0f0;    /* Light background */
+}
+
+/* Style the header title */
+.head {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Style the navigation links */
+nav a {
+    text-decoration: none;
+    margin-left: 20px;  /* Space between links */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Optional: Hover effect */
+nav a:hover {
+    color: #007BFF;
+}
+
+/* Responsive: stack vertically on small screens */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 20px;
+    }
+}
+img{
+    margin-left: 80px;
+}
+
+
